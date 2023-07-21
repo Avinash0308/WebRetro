@@ -1,0 +1,26 @@
+[
+    {
+        "eventName" : "Web-Retro",
+        "eventDate" : "12-03-2023",
+        "description" : "WebRetro is a web development hackathon that challenges participants to create web applications using retro-inspired designs and technologies. This hackathon is a great opportunity for participants to showcase their creativity and web development skills while building interactive and engaging web experiences with a nostalgic twist.",
+        "image" : "null",
+        "googleForm":"null"
+
+    },
+    {
+        "eventName" : "Code-Craft",
+        "eventDate" : "19-03-2023",
+        "description" : "CodeCraft is a web development hackathon that challenges participants to develop innovative web applications using modern web technologies such as React, node.js, and others. This hackathon is a great opportunity for participants to showcase their web development skills and creativity while building interactive and engaging web experiences.",
+        "image" : "null",
+        "googleForm":"null"
+
+    },
+    {
+        "eventName" : "Algo-thon",
+        "eventDate" : "Coming Soon",
+        "description" : "Algo-thon is a DSA competition where you can test your skills and compete with other participants.",
+        "image" : "null",
+        "googleForm":"null"
+
+    }
+]

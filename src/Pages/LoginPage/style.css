@@ -1,0 +1,146 @@
+.one {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    font-weight: 600;
+}
+
+.two {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    font-weight: 600;
+    box-shadow: rgb(100, 100, 100) inset 0 0 4px 0;
+    background: rgb(243, 244, 246);
+}
+
+.inp .con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 21rem;
+    margin-bottom: 0.25rem;
+}
+
+.inp input {
+    /* font-size: 20px; */
+    width: 10rem;
+}
+
+.inp a {
+    margin: 0 0 0.75rem 11rem;
+    color: rgb(59 130 246);
+    cursor: pointer;
+}
+
+.lgnbtn {
+    margin: 0 0 0.75rem 14rem;
+    padding: 1rem 1.5rem;
+    background: #23b43f;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.signupbtn {
+    background: #23b43f;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.agrmnt {
+    margin: 1rem 4rem 0 4rem;
+    color: white;
+}
+
+.agrmnt a {
+    color: rgb(59 130 246);
+    cursor: pointer;
+}
+
+
+.terminal {
+    margin-top: 20px;
+    background-color: #333333;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.inputs {
+    background-color: rgba(252, 252, 252, 0);
+    /* margin: auto; */
+    height: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    /* border-radius: 10px; */
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.inputs:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(255, 2, 2);
+}
+
+.loginButton{
+    background-color: rgb(255, 2, 2);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.loading{
+    
+    color: rgb(255, 0, 0);  
+}
+
+@media (min-width: 768px) {
+
+    .one,
+    .two {
+        font-size: 1.25rem
+            /* 20px */
+        ;
+        line-height: 1.75rem
+            /* 28px */
+        ;
+        width: 15rem
+            /* 240px */
+        ;
+    }
+
+    .inp .con {
+        width: 27rem;
+    }
+
+    .inp input {
+        width: 12rem;
+    }
+
+    .inp a {
+        margin-left: 19.5rem;
+    }
+
+    .lgnbtn {
+        margin-left: 21.4rem;
+    }
+
+    .signupbtn {
+        margin-left: 15.5rem;
+    }
+}

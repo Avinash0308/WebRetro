@@ -1,0 +1,167 @@
+
+.up {
+  font: 100% / 1.5 Raleway, sans-serif;
+  color: hsl(230, 100%, 95%);
+}
+
+.h1 {
+  width: 550px;
+  margin: auto;
+  padding: 30px;
+  font-size: 66px;
+  font-weight: 300;
+  animation: lights 5s 1s linear infinite;
+  position: relative;
+}
+
+@keyframes lights {
+  0% {
+    color: hsl(0, 18%, 83%);
+    text-shadow:
+      0 0 1em hsla(0, 81%, 48%, 0.2),
+      0 0 0.125em hsla(0, 82%, 42%, 0.3),
+      -1em -0.125em 0.5em hsla(348, 91%, 46%, 0),
+      1em 0.125em 0.5em hsla(0, 88%, 51%, 0);
+  }
+
+  30% {
+    color: hsl(355, 19%, 88%);
+    text-shadow:
+      0 0 1em hsla(356, 91%, 54%, 0.5),
+      0 0 0.125em hsla(0, 81%, 36%, 0.5),
+      -0.5em -0.125em 0.25em hsla(0, 98%, 51%, 0.2),
+      0.5em 0.125em 0.25em hsla(357, 90%, 38%, 0.4);
+  }
+
+  40% {
+    color: hsl(355, 27%, 90%);
+    text-shadow:
+      0 0 1em hsla(357, 90%, 49%, 0.5),
+      0 0 0.125em hsla(0, 91%, 48%, 0.5),
+      -0.25em -0.125em 0.125em hsla(350, 98%, 51%, 0.2),
+      0.25em 0.125em 0.125em hsla(0, 92%, 44%, 0.841);
+  }
+
+  70% {
+    color: hsl(349, 26%, 92%);
+    text-shadow:
+      0 0 1em hsla(353, 95%, 51%, 0.982),
+      0 0 0.125em hsla(358, 94%, 48%, 0.5),
+      0.5em -0.125em 0.25em hsla(0, 93%, 49%, 0.941),
+      -0.5em 0.125em 0.25em hsla(358, 96%, 52%, 0.4);
+  }
+
+  100% {
+    color: hsl(351, 42%, 91%);
+    text-shadow:
+      0 0 1em hsla(354, 85%, 32%, 0.911),
+      0 0 0.125em hsla(0, 95%, 45%, 0.915),
+      1em -0.125em 0.5em hsl(353, 89%, 48%),
+      -1em 0.125em 0.5em hsl(0, 96%, 50%);
+  }
+
+}
+
+.buttons {
+  width: 50%;
+  margin: 20px auto 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homePage-button {
+  --color: red;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  color: white;
+  border-radius: .3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid red;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.homePage-button::before,
+.homePage-button::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.homePage-button::before {
+  top: -1em;
+  left: -1em;
+}
+
+.homePage-button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.homePage-button:hover::before,
+.homePage-button:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.homePage-button:hover {
+  color: white;
+}
+
+.homePage-button:active {
+  filter: brightness(.8);
+}
+
+.nextbox{
+    height: 300px;
+    min-width: 470px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+.events{
+  overflow-x: scroll;
+  min-width: 90%;
+}
+
+.homeTopSec{
+  background-image: linear-gradient(to bottom, rgba(73, 69, 69, 0) 80%, rgba(0, 0, 0, 0.411) 100%), url("../../../public/assets/wave2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .homePage-button {
+    width: 120px;
+    height: 40px;
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+  .nextbox{
+    height: 280px;
+    min-width: 250px;
+  }
+}
+  

@@ -1,0 +1,40 @@
+[
+    {
+        "heading":"Eligibility",
+        "rule":"Participants must be at least 18 years of age and have a valid email address to participate in the hackathon."
+    },
+    {
+        "heading":"Submission",
+        "rule":"All submissions must be made through the designated submission form before the deadline. Submissions must include a link to a functioning website and a short description of the project."
+    },
+    {
+        "heading":"Original work",
+        "rule":"All work submitted must be original and created during the duration of the hackathon. Plagiarism or copyright infringement will result in disqualification."
+    },
+    {
+        "heading":"Technologies",
+        "rule":"Participants are free to use any programming language, frameworks, or technologies to develop their project."
+    },
+    {
+        "heading":"Code repository",
+        "rule":"Participants must use a code repository such as GitHub to store their project code, and resposetory must not be private."
+    },
+    {
+        "heading":"Changes",
+        "rule":"The organizers reserve the right to make changes to the rules and regulations at any time before or during the hackathon."
+    },
+
+    {
+        "heading":"Prizes",
+        "rule":"Prizes will be awarded to the top three participants. The prizes will be announced at the start of the hackathon."
+    },
+    {
+        "heading":"Judging",
+        "rule":" Projects will be judged based on creativity, functionality, user experience, and overall description."
+    },
+    {
+        "heading":"Disqualification",
+        "rule":"The organizers reserve the right to disqualify any participant who violates the rules and regulations."
+    }
+  
+]

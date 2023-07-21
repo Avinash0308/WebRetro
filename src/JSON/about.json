@@ -1,0 +1,35 @@
+[
+    {
+
+    "name": "Ashish Kumar",
+    "designation": "CEO, Founder",
+    "image": "",
+    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla tenetur natus ut ullam. Beatae sint soluta aliquid labore officiis consectetur dolorum, in ipsa rem? Neque.    "
+
+    },
+    {
+
+    "name": "Amit Mishra",
+    "designation": "CTO",
+    "image": "",
+    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla tenetur natus ut ullam. Beatae sint soluta aliquid labore officiis consectetur dolorum, in ipsa rem? Neque.    "
+
+    },
+    {
+
+    "name": "Farhan Akhter",
+    "designation": "Junior Dev",
+    "image": "https://instagram.fidr1-1.fna.fbcdn.net/v/t51.2885-15/81672532_118158259520991_6391078617197963205_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fidr1-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=KPW_MUPmITsAX_e_mw6&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MjIzMTM0OTU3MzY5MjQxMzM3MQ%3D%3D.2-ccb7-5&oh=00_AfCfTSAE8wR03RQY-WSUVwvcH8H-QQq7_sGxnShDIi0NVA&oe=643302D9&_nc_sid=1527a3",
+    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla tenetur natus ut ullam. Beatae sint soluta aliquid labore officiis consectetur dolorum, in ipsa rem? Neque.    "
+
+    },
+    {
+
+    "name": "Alok Tamarkar",
+    "designation": "Junior Dev",
+    "image": "",
+    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla tenetur natus ut ullam. Beatae sint soluta aliquid labore officiis consectetur dolorum, in ipsa rem? Neque.    "
+
+    }
+    
+]
